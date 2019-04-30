@@ -31,7 +31,7 @@ namespace QnAMakerActiveLearningBot
         /// </summary>
         public static readonly string QnAMakerKey = "QnAMakerActiveLearning";
 
-        private const string WelcomeText = "Hello, I'm the Beijabot, I'm here to help you to answer to every security questions. Please ask me something to start the chat.";
+        private const string WelcomeText = "Welcome, I'm the Beijabot, I'm here to help you to answer to every security questions. Please ask me something to start the chat.";
         private readonly BotAccessors _accessors;
         private QnAMakerOptions _qnaMakerOptions;
 
