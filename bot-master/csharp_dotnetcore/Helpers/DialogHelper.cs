@@ -154,7 +154,7 @@ namespace QnAMakerActiveLearningBot.Helpers
             }
             else
             {
-                var msg = "No QnAMaker answers found.";
+                var msg = "Sorry I can't answer this question. If this is a security question I should be able to answer. Please send an email to this address: [@]. ";
                 await stepContext.Context.SendActivityAsync(msg, cancellationToken: cancellationToken);
             }
 
