@@ -141,7 +141,7 @@ namespace QnAMakerActiveLearningBot
                 if (member.Id != turnContext.Activity.Recipient.Id)
                 {
                     await turnContext.SendActivityAsync(
-                        $"Welcome to QnA Maker Bot {member.Name}. {WelcomeText}",
+                       // $"Welcome to QnA Maker Bot {member.Name}. {WelcomeText}",
                         cancellationToken: cancellationToken);
                 }
             }
