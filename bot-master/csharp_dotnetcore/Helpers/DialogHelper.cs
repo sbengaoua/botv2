@@ -154,7 +154,7 @@ namespace QnAMakerActiveLearningBot.Helpers
             }
             else
             {
-                var msg = "Sorry I can't answer this question. If this is a security question I should be able to answer. Please send an email to this address: [@]. ";
+                var msg = "Sorry I can't answer this question. If this is a security question I should be able to answer. Please send an email to this address: sbengaoua753@beijaflore.com. ";
                 await stepContext.Context.SendActivityAsync(msg, cancellationToken: cancellationToken);
             }
 
